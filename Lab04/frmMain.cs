@@ -102,7 +102,7 @@ namespace Lab04
             // Kiểm tra điểm trung bình
             if (!float.TryParse(averageScore, out float score) || score < 0 || score > 10)
             {
-                MessageBox.Show("Điểm trung bình không hợp lệ. Vui lòng nhập lại (phải là số từ 0 đến 10).", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Điểm trung bình không hợp lệ. Vui lòng nhập lại (phải là số từ 0 -> 10).", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             return true;
