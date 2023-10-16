@@ -221,5 +221,14 @@ namespace Lab04
             frm = null;
             this.Show();
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNew frm = new frmNew();
+            this.Hide();
+            frm.ShowDialog();
+            frm = null;
+            this.Show();
+        }
     }
 }
